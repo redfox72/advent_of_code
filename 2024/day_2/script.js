@@ -60,7 +60,7 @@ var parse = (input) =>
     return input.map((val) => val.split(' '));;
 }
 
-var day1 = (input) => 
+var solve = (input) => 
 {
     console.log(`part 1 result: ${part1(parse(input))}`);
     var testInput = 
@@ -73,4 +73,4 @@ var day1 = (input) =>
     console.log(`part 2 result: ${part2(parse(input))}`);
 }
 
-module.exports = day1;
+module.exports = solve;

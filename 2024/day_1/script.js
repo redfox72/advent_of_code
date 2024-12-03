@@ -35,10 +35,10 @@ var parse = (input) =>
     return {left, right};
 }
 
-var day1 = (input) => 
+var solve = (input) => 
 {
     console.log(`part 1 result: ${part1(parse(input))}`);
     console.log(`part 2 result: ${part2(parse(input))}`);
 }
 
-module.exports = day1;
+module.exports = solve;
