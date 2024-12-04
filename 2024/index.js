@@ -4,7 +4,7 @@ var days = {
     1: require('./day_1/script.js'),
     2: require('./day_2/script.js'),
     3: require('./day_3/script.js'),
-    4: () => {},
+    4: require('./day_4/script.js'),
     5: () => {},
     6: () => {},
     7: () => {},
